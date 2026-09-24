@@ -1,0 +1,17 @@
+Set-Content -Path .\.gitignore -Value @'
+# Java / Maven
+backend/target/
+backend/.mvn/
+backend/*.log
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+.env
+
+# OS / IDE files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+'@
